@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #0288d1;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Categories Dropdown */
+.categories-dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+    width: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Post Trade Button */
+.post-trade-btn {
+    background: white;
+    color: #0288d1;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* User Options */
+.user-options {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: #0277bd;
+    color: white;
+    padding: 50px;
+}
+
+.cta-btn {
+    background: white;
+    color: #0288d1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Featured Trades */
+.featured-trades {
+    margin: 20px 0;
+}
+
+.trade-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trade-item {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* Recent Listings */
+.recent-listings {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* How It Works */
+.how-it-works {
+    margin: 30px 0;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.step {
+    background: #0288d1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background: #0277bd;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
